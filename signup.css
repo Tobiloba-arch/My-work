@@ -128,3 +128,60 @@ a {
   border-radius: 0.5rem;
   border: solid 2px;
 }
+
+@media (max-width: 900px) {
+  main {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+  .card {
+    width: 60%;
+    padding: 2rem 1rem;
+    border-top-right-radius: 2rem;
+  }
+  .first-part {
+    width: 80%;
+    padding: 1rem;
+    border-bottom-left-radius: 2rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  .card {
+    width: 95vw;
+    padding: 1rem 0.5rem;
+    border-top-right-radius: 1rem;
+  }
+  .first-part {
+    width: 95vw;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+    margin-bottom: 10px;
+  }
+  .head,
+  .welcome {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .username,
+  .password,
+  .fname,
+  .phone,
+  .second-pass,
+  .second-password {
+    padding: 0.5rem 0.2rem;
+    font-size: 1rem;
+  }
+  .login {
+    font-size: 1rem;
+    padding: 0.7rem 0rem;
+    margin-bottom: 0.3rem;
+  }
+}

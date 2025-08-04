@@ -105,3 +105,52 @@ p {
   font-weight: bold;
   margin-top: 20px;
 }
+
+@media (max-width: 900px) {
+  .container {
+    width: 95vw;
+    min-height: 60vh;
+    padding: 10px;
+  }
+  .main-container {
+    height: auto;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .navbar ul {
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .navbar li {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 5px;
+    height: auto;
+    flex-direction: column;
+  }
+  .container {
+    width: 100vw;
+    min-height: 40vh;
+    padding: 5px;
+    border-radius: 0;
+  }
+  h1,
+  h2,
+  h4,
+  p,
+  .logo {
+    font-size: 1.1rem;
+    padding: 5px;
+    margin: 5px;
+  }
+  .get-started {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin-top: 10px;
+  }
+}
