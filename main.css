@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: #00bfff;
+}
+
+nav {
+  background-color: #111827;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #00bfff;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #00bfff;
+  transition: transform 0.2s;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.main-content {
+  padding: 50px;
+  text-align: center;
+}
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.controls button {
+  flex: 1;
+  min-width: 100px;
+}
+
+@media (max-width: 600px) {
+  .ai-chat {
+    padding: 0.5rem;
+    margin: 1rem;
+  }
+
+  textarea {
+    height: 80px;
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}

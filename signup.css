@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f2152;
+  background: linear-gradient(
+    90deg,
+    rgba(15, 33, 82, 1) 50%,
+    rgba(68, 91, 202, 1) 77%,
+    rgba(114, 100, 156, 1) 100%
+  );
+  height: 100vh;
+}
+.card {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  padding: 4rem 2rem;
+  border-top-right-radius: 5rem;
+  width: 30%;
+}
+.head {
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.name {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 0.3rem;
+}
+.pass {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 0.2rem;
+  margin-top: 1rem;
+}
+.username {
+  padding: 0.8rem 0rem;
+  padding-left: 0.3rem;
+  border-radius: 0.5rem;
+  border: black solid 2px;
+}
+.sign {
+  text-align: center;
+}
+.password {
+  padding: 0.8rem 0rem;
+  padding-left: 0.3rem;
+  border-radius: 0.5rem;
+  border: black solid 2px;
+  margin-bottom: 0.5rem;
+}
+.login {
+  padding: 1rem 0rem;
+  font-weight: 700;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+}
+.divide {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.first-part {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  flex-direction: column;
+  width: 40%;
+  padding: 0rem 2rem;
+  border-bottom-left-radius: 5rem;
+}
+.first-part p {
+  color: white;
+}
+.welcome {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: start;
+  margin-bottom: 10px;
+}
+a {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.show {
+  border: none;
+  cursor: pointer;
+}
+.show-pass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fname {
+  padding: 0.8rem 0rem;
+  padding-left: 0.3rem;
+  border-radius: 0.5rem;
+  border: black solid 2px;
+  margin-bottom: 0.9rem;
+}
+.phone {
+  padding: 0.8rem 0rem;
+  padding-left: 0.3rem;
+  border-radius: 0.5rem;
+  border: black solid 2px;
+  margin-bottom: 0.9rem;
+}
+.second-pass {
+  padding: 0.8rem 0rem;
+  padding-left: 0.3rem;
+  border-radius: 0.5rem;
+  border: black solid 2px;
+  margin-bottom: 0.9rem;
+}
+.second-password {
+  padding: 0.8rem 0.2rem;
+  margin: 0.1rem 0rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: solid 2px;
+}

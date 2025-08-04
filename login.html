@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/signup.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="divide">
+        <div class="first-part">
+          <p class="welcome">Welcome Back!</p>
+          <p class="well">You can log in to access your existing account</p>
+        </div>
+        <form class="card">
+          <p class="head">Login</p>
+          <label for="name" class="name">Username</label>
+          <input
+            type="text"
+            placeholder="Enter username"
+            required
+            class="username"
+            id="input"
+          />
+          <label for="pass" class="pass">Password</label>
+          <div class="show-pass">
+            <input
+              type="password"
+              required
+              placeholder="Password"
+              class="second-password"
+              id="password"
+            />
+            <button class="btn show" id="show">Show</button>
+          </div>
+          <a href="forget.html">Forgot Password</a>
+          <button class="btn login" id="login">LOG IN</button>
+          <p class="sign">
+            Don't have an account? <a href="signup.html">Sign Up</a>
+          </p>
+        </form>
+      </div>
+    </main>
+
+    <script src="/login.js"></script>
+  </body>
+</html>

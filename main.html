@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header>TOBI's Dashboard</header>
+
+    <nav>
+      <div class="nav-links">
+        <a href="home.html">Home</a>
+        <a href="login.html">Logout</a>
+      </div>
+      <a href="profile.html">
+        <img
+          src="images/OIP.webp"
+          alt="Profile"
+          id="navProfilePic"
+          class="profile-pic"
+        />
+      </a>
+    </nav>
+
+    <main class="ai-chat">
+      <div class="chat-header">
+        <h2>Ask AI</h2>
+        <button id="toggleTheme">Toggle Dark Mode</button>
+      </div>
+
+      <textarea id="prompt" placeholder="Ask me anything..."></textarea>
+      <div class="controls">
+        <button onclick="askAI()">Send</button>
+        <button id="micBtn">🎤 Speak</button>
+      </div>
+
+      <div id="chatHistory"></div>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

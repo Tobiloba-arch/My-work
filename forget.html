@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/signup.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="divide">
+        <div class="first-part">
+          <p class="welcome">Reset Password</p>
+          <p class="well">
+            Forget your password? Use your username to correct it
+          </p>
+        </div>
+        <form class="card">
+          <p class="head">Reset Password</p>
+          <label for="name" class="name">Username</label>
+          <input
+            type="text"
+            placeholder="Enter username"
+            class="username"
+            id="username"
+            minlength="5"
+            required
+          />
+          <label for="pass" class="pass">New Password:</label>
+          <input
+            type="password"
+            placeholder="Enter new Password"
+            class="password"
+            id="newpassword"
+            minlength="8"
+            required
+          />
+          <label for="pass" class="name">Confirm Password:</label>
+          <input
+            type="password"
+            placeholder="Confirm Password"
+            class="password"
+            id="confirmpassword"
+            minlength="8"
+            required
+          />
+
+          <button class="btn show" id="show">Show Password</button>
+          <button class="btn login" id="reset">Save New Password</button>
+          <p class="sign">
+            Don't have an account? <a href="signup.html">Sign Up</a>
+          </p>
+        </form>
+      </div>
+    </main>
+
+    <script src="/forget.js"></script>
+  </body>
+</html>

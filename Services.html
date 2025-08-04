@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Send Email</title>
+    <link rel="stylesheet" href="./services.css" />
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <input type="text" name="title" placeholder="Subject" required />
+        <textarea name="message" placeholder="Your message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+
+      <div class="call-terminal">
+        <h2>Call Us</h2>
+        <p>Need to speak with us directly? Tap below to call or send an SMS:</p>
+        <a href="tel:‪+2347078445852‬" class="call-link">📞 ‪+2347078445852‬</a>
+        <a href="sms:+2347078445852?body=Hello, I'm interested in your service."
+          >📩 Send SMS</a
+        >
+      </div>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      />
+      <!-- ...existing code... -->
+
+      <!-- Add this where you want the icons to appear, for example after the <button> -->
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://wa.me/+2347078445852" target="_blank"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+        <a href="https://instagram.com" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+    </div>
+
+    <script src="./services.js"></script>
+  </body>
+</html>

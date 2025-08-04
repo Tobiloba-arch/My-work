@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  background: linear-gradient(135deg, #00001f, #800080);
+  color: white;
+  min-height: 100vh;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+form {
+  background-color: white;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+textarea,
+button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+p {
+  color: #666;
+  margin: 10px 0;
+}
+.call-terminal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+.call-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #007bff;
+  text-decoration: none;
+}
+.call-link:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 2rem;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ffd700;
+}

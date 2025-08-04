@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="signup.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="divide">
+        <div class="first-part">
+          <p class="welcome">Hello!</p>
+          <p class="well">Please signup to create an existing account</p>
+        </div>
+        <form class="card">
+          <p class="head">Sign Up</p>
+          <label for="Name" class="name">Username:</label>
+          <input
+            type="text"
+            placeholder="Create a username"
+            class="fname"
+            required
+            id="username"
+            minlength="5"
+          />
+          <label for="phone-no" class="name">Phone Number:</label>
+          <input type="tel" placeholder="Phone number" class="phone" id="tel" />
+          <label for="" class="name">Password:</label>
+          <input
+            type="password"
+            placeholder="Enter your password"
+            class="second-pass"
+            id="password"
+          />
+          <button class="btn show" id="show">Show Password</button>
+          <button class="btn login" id="signup">SIGN UP</button>
+          <p class="sign">
+            Already have an account <a href="login.js">Login</a>
+          </p>
+        </form>
+      </div>
+    </main>
+
+    <script src="/signup.js"></script>
+  </body>
+</html>
